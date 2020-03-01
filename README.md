@@ -17,3 +17,7 @@ The fastest, easiest way to explore projects, events and other content for Robot
 To know more about it, Please visit: 
 https://www.vssutrobotics.in, 
 http://vssutrobotics.in/robotics_society_android/privacy_policy.html
+
+
+
+Gaurav
