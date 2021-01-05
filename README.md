@@ -9,7 +9,7 @@ This app connects the Robotics Society with you. Get each update through notific
 Get personalized updates :
 - Latest Updates
 - Stay in the know about topics that interest you
-- Videos and images
+- Video and images
 - News, information, and much more
 
 The fastest, easiest way to explore projects, events and other content for Robotics, when you need it. 
