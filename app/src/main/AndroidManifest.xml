@@ -13,24 +13,25 @@
         android:roundIcon="@drawable/rslogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".samavesh2020"></activity>
+
         <meta-data
             android:name="asset_statements"
             android:resource="@string/asset_statements" />
-
-        <!--<activity android:name=".MainActivity">
+        <!--
+<activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>-->
-
+        </activity>
+        -->
         <activity android:name=".HomeActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
@@ -43,62 +44,47 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
-
         <activity android:name=".user.forget" />
-
         <activity
             android:name=".user.profile"
             android:parentActivityName=".Home_Page" />
-
         <activity android:name=".Home_Page" />
-
         <activity
             android:name=".events"
             android:parentActivityName=".Home_Page" />
-
         <activity
             android:name=".awards"
             android:parentActivityName=".Home_Page" />
-
         <activity
             android:name=".about"
             android:parentActivityName=".Home_Page" />
-
         <activity
             android:name=".projects"
             android:parentActivityName=".Home_Page" />
-
         <activity
             android:name=".support"
             android:parentActivityName=".Home_Page" />
-
         <activity
             android:name=".robocon"
             android:parentActivityName=".awards" />
-
         <activity
             android:name=".nationals"
             android:parentActivityName=".awards" />
-
         <activity
             android:name=".eyantra"
             android:parentActivityName=".awards" />
-
         <activity
             android:name=".techfest"
             android:parentActivityName=".awards" />
-
         <activity
             android:name=".prashikshan.prakish_check"
             android:parentActivityName=".Home_Page" />
-
 
         <service android:name=".Notify.MessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
         <service android:name=".Notify.MyFirebaseInstanceService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
@@ -111,7 +97,6 @@
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
-
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="4ae43ca54ea34c5a7bf62a2685d5b17430a64c11" />

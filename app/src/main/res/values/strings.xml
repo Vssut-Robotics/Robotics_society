@@ -4,8 +4,6 @@
     <string name="Close">Close</string>
 
 
-
-
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Signin or Register</string>
