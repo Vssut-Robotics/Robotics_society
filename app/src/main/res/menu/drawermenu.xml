@@ -29,9 +29,9 @@
             android:icon="@drawable/ic_prakish"
             android:title="Prashikshan" />
 
-        <!--<item android:id="@+id/nav_quiz"
-            android:title="Quiz"
-            android:icon="@drawable/ic_quiz"/>-->
+        <item android:id="@+id/nav_samavesh2020"
+            android:title="Samavesh 2020"
+            android:icon="@drawable/ic_notification"/>
 
         <item android:id="@+id/nav_logout"
             android:title="Logout"

@@ -21,6 +21,7 @@ import com.google.firebase.messaging.RemoteMessage;
  */
 
 public class MessagingService extends FirebaseMessagingService {
+    ///if()
 
     final SharedPreferences mSharedPreference = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
     final String user_id = (mSharedPreference.getString("user_id", "id"));

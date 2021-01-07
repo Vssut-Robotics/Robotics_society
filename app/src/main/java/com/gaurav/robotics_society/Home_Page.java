@@ -144,9 +144,10 @@ public class Home_Page extends AppCompatActivity implements UpdateHelper.onUpdat
                                 break;
 
 
-                            /*case R.id.nav_quiz:
-                                Toast.makeText(Home_Page.this, "This feature is under Development", Toast.LENGTH_SHORT).show();
-                                break;*/
+                            case R.id.nav_samavesh2020:
+                                Intent s = new Intent(getBaseContext(), samavesh2020.class);
+                                startActivity(s);
+                                break;
 
 
                             case R.id.nav_logout:

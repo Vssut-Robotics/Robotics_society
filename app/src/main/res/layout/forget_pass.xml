@@ -56,7 +56,7 @@
             android:background="@drawable/button_bg_oval"
             android:text="Reset password"
             android:textColor="#ffffff"
-            android:textStyle="italic" />
+            android:textStyle="bold" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
